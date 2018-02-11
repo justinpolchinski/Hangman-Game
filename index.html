@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="stylesheet" href="assests/css/style.css">
+    <title>Animal Hangman</title>
+</head>
+<body>
+    <h1>Animal Hangman</h1>
+    <div class="main">
+        
+        <div class="hiddenWord" id="secretWord">Word</div>
+
+        <div class="leftSide"> 
+            <div class="hangingMan">hangman</div>
+
+        </div>  
+        <div class="rightSide">
+            
+            <div class="guesses">guesses
+                <div id="guessCount"></div>
+            </div>
+            <div class="letters">
+                <button onclick="letterA()"><div class="letterBox"id="A">A</div></button>
+                <button onclick="letterB()"><div class="letterBox"id="B">B</div></button>
+                <button onclick="letterC()"><div class="letterBox"id="C">C</div></button>
+                <button onclick="letterD()"><div class="letterBox"id="D">D</div></button>
+                <button onclick="letterE()"><div class="letterBox"id="E">E</div></button>
+                <button onclick="letterF()"><div class="letterBox"id="F">F</div></button>
+                <button onclick="letterG()"><div class="letterBox"id="G">G</div></button>
+                <button onclick="letterH()"><div class="letterBox"id="H">H</div></button>
+                <button onclick="letterI()"><div class="letterBox"id="I">I</div></button>
+                <button onclick="letterJ()"><div class="letterBox"id="J">J</div></button>
+                <button onclick="letterK()"><div class="letterBox"id="K">K</div></button>
+                <button onclick="letterL()"><div class="letterBox"id="L">L</div></button>
+                <button onclick="letterM()"><div class="letterBox"id="M">M</div></button>
+                <button onclick="letterN()"><div class="letterBox"id="N">N</div></button>
+                <button onclick="letterO()"><div class="letterBox"id="O">O</div></button>
+                <button onclick="letterP()"><div class="letterBox"id="P">P</div></button>
+                <button onclick="letterQ()"><div class="letterBox"id="Q">Q</div></button>
+                <button onclick="letterR()"><div class="letterBox"id="R">R</div></button>
+                <button onclick="letterS()"><div class="letterBox"id="S">S</div></button>
+                <button onclick="letterT()"><div class="letterBox"id="T">T</div></button>
+                <button onclick="letterU()"><div class="letterBox"id="U">U</div></button>
+                <button onclick="letterV()"><div class="letterBox"id="V">V</div></button>
+                <button onclick="letterW()"><div class="letterBox"id="W">W</div></button>
+                <button onclick="letterX()"><div class="letterBox"id="X">X</div></button>
+                <button onclick="letterY()"><div class="letterBox"id="Y">Y</div></button>
+                <button onclick="letterZ()"><div class="letterBox"id="Z">Z</div></button>
+
+                
+            </div>
+            <div class="wins" id="wins">wins</div>
+            <div class="losses" id="losses">losses</div>
+
+        </div>
+    </div>
+
+    <script src="assests/javascript/game.js"></script>
+</body>
+</html>

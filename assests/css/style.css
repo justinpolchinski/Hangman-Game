@@ -1,0 +1,65 @@
+body{
+    background-image: url("hostaFrog.jpeg");    
+    background-size: 150%;    
+}
+
+h1{
+    background: rgb(17, 71, 9);
+    color: white;
+    
+    font-family: cursive;
+    border-bottom: solid 3px black;
+    text-align: center;
+    margin: 0%;
+}
+#secretWord{
+   
+   text-align: center;
+
+   
+}
+.main{
+    margin: 5%;
+    display:grid;
+    grid-template-columns: auto auto auto auto ;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+.hiddenWord,.leftSide,.hangingMan,
+.rightSide,.guesses,.letters,.wins,.losses{
+    border: 2px solid black;
+}
+.hiddenWord{
+    grid-column: 1/5;
+}
+.leftSide{
+    grid-column: 1/3;
+}
+.hangingMan{
+    text-align: center;
+}
+.rightSide{
+    grid-column: 3/5;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto ;
+}
+.guesses{}
+.letters{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    
+}
+#secretWord{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+}
+.wins{}
+.losses{}
+.letterBox{
+    border: solid 1px black;
+    background: rgb(17, 71, 9);
+    color: white;
+    text-align: center;
+}

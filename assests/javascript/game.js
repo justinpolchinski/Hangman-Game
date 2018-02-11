@@ -1,6 +1,6 @@
 console.log("Justin is testing link");
 
-var animalNames = ["snake", "alligator", "crocodile", "turtle", "lizard", "cat", "dog", "squirrel", "bobcat"];
+var animalNames = ["snake", "alligator", "crocodile", "turtle", "lizard", "lion", "wolf", "squirrel", "bobcat", "leopard", "cobra", "fox", "cardinal", "bluejay", "mole", "mouse", "beaver", "nutria"];
 //var animalNames = [ "fprvztk"];
 console.log(animalNames);
 

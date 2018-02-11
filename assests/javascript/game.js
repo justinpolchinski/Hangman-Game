@@ -1,14 +1,15 @@
 console.log("Justin is testing link");
 
-//var animalNames = ["snake", "alligator", "crocodile", "turtle", "lizard", "cat", "dog", "squirrel", "bobcat"];
-var animalNames = [ "fjbhkifk"];
+var animalNames = ["snake", "alligator", "crocodile", "turtle", "lizard", "cat", "dog", "squirrel", "bobcat"];
+//var animalNames = [ "fprvztk"];
 console.log(animalNames);
 
 
 var animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
 //console.log(animalX);
-document.getElementById("secretWord").innerHTML = animalX;
+//document.getElementById("secretWord").innerHTML = animalX;
 function logArray(list){
+    
     for(var j = 0; j<list.length; j++){
         console.log(list[j]);
         var newDiv = document.createElement("div"+j);
@@ -52,21 +53,21 @@ function setGuessesZero(){
     removeGuessI = 0;
     removeGuessJ = 0;
     removeGuessK = 0;
-    // removeGuessL = 0;
-    // removeGuessM = 0;
-    // removeGuessN = 0;
-    // removeGuessO = 0;
-    // removeGuessP = 0;
-    // removeGuessQ = 0;
-    // removeGuessR = 0;
-    // removeGuessS = 0;
-    // removeGuessT = 0;
-    // removeGuessU = 0;
-    // removeGuessV = 0;
-    // removeGuessW = 0;
-    // removeGuessX = 0;
-    // removeGuessY = 0;
-    // removeGuessZ = 0;
+    removeGuessL = 0;
+    removeGuessM = 0;
+    removeGuessN = 0;
+    removeGuessO = 0;
+    removeGuessP = 0;
+    removeGuessQ = 0;
+    removeGuessR = 0;
+    removeGuessS = 0;
+    removeGuessT = 0;
+    removeGuessU = 0;
+    removeGuessV = 0;
+    removeGuessW = 0;
+    removeGuessX = 0;
+    removeGuessY = 0;
+    removeGuessZ = 0;
 
 }
 function imageCycle(){
@@ -187,6 +188,7 @@ function letterA(){
         answerString = [];
         buttonsBack();
         setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
         logArray(animalX);
         
     }
@@ -199,6 +201,7 @@ function letterA(){
         answerString = [];
         buttonsBack();
         setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
         logArray(animalX);
         
     }
@@ -248,6 +251,7 @@ function letterB(){
         answerString = [];
         buttonsBack();
         setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
         logArray(animalX);
         
     }
@@ -260,6 +264,7 @@ function letterB(){
         answerString = [];
         buttonsBack();
         setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
         logArray(animalX);
         
     }
@@ -312,6 +317,7 @@ function letterC(){
         answerString = [];
         buttonsBack();
         setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
         logArray(animalX);
         
     }
@@ -324,6 +330,7 @@ function letterC(){
         answerString = [];
         buttonsBack();
         setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
         logArray(animalX);
         
     }
@@ -377,6 +384,7 @@ function letterD(){
         answerString = [];
         buttonsBack();
         setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
         logArray(animalX);
         
     }
@@ -389,6 +397,7 @@ function letterD(){
         answerString = [];
         buttonsBack();
         setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
         logArray(animalX);
         
     }
@@ -444,6 +453,7 @@ function letterE(){
         answerString = [];
         buttonsBack();
         setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
         logArray(animalX);
         
     }
@@ -456,6 +466,7 @@ function letterE(){
         answerString = [];
         buttonsBack();
         setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
         logArray(animalX);
         
     }
@@ -511,6 +522,7 @@ function letterF(){
         answerString = [];
         buttonsBack();
         setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
         logArray(animalX);
         
     }
@@ -523,6 +535,7 @@ function letterF(){
         answerString = [];
         buttonsBack();
         setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
         logArray(animalX);
         
     }
@@ -578,6 +591,7 @@ function letterG(){
         answerString = [];
         buttonsBack();
         setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
         logArray(animalX);
         
     }
@@ -590,6 +604,7 @@ function letterG(){
         answerString = [];
         buttonsBack();
         setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
         logArray(animalX);
         
     }
@@ -645,6 +660,7 @@ function letterH(){
         answerString = [];
         buttonsBack();
         setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
         logArray(animalX);
         
     }
@@ -657,6 +673,7 @@ function letterH(){
         answerString = [];
         buttonsBack();
         setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
         logArray(animalX);
         
     }
@@ -712,6 +729,7 @@ function letterI(){
         answerString = [];
         buttonsBack();
         setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
         logArray(animalX);
         
     }
@@ -724,6 +742,7 @@ function letterI(){
         answerString = [];
         buttonsBack();
         setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
         logArray(animalX);
         
     }
@@ -780,6 +799,7 @@ function letterJ(){
         answerString = [];
         buttonsBack();
         setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
         logArray(animalX);
         
     }
@@ -792,6 +812,7 @@ function letterJ(){
         answerString = [];
         buttonsBack();
         setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
         logArray(animalX);
         
     }
@@ -848,6 +869,7 @@ function letterK(){
         answerString = [];
         buttonsBack();
         setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
         logArray(animalX);
         
     }
@@ -860,6 +882,7 @@ function letterK(){
         answerString = [];
         buttonsBack();
         setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
         logArray(animalX);
         
     }
@@ -867,6 +890,1068 @@ function letterK(){
 }
 
 //LETTER END/////////////////////////////////////////////////////
+
+//NEXT LETTER______________________________________________________________
+//change letter below
+var removeGuessL = 0;
+//change letter below
+function letterL(){
+    //change letter below
+    document.getElementById("L").style.display="none";
+    //change letter below
+    if (removeGuessL<1){
+        guessesLeft= guessesLeft-1;
+        document.getElementById("guessCount").innerHTML = guessesLeft;
+        //CHANGE LETTER BELOW        
+        removeGuessL+=1;
+          
+        
+    
+   
+    for (var i=0; i<animalX.length; i++){
+    var idIndex = 'id'+i;
+    var idChar = document.getElementById("id" + i).innerText;
+    var idChar2 = document.getElementById("id"+ i);
+    //CHANGE LETTER BELOW
+    var letter = 'l';
+    console.log('checking: ' + idChar);
+    
+    
+        if (idChar == letter){        
+            idChar2.style.cssText= "color:red; border-bottom: 2px solid black; font-size: 30px;";
+            
+            answerString.splice(i,0,letter);
+            console.log("making answer: " +answerString);             
+        }
+        else{
+            console.log("oops");
+
+        }
+    
+    }
+}
+    if (guessesLeft == 0){
+        timesLost-=1;
+        document.getElementById("losses").innerHTML = "Losses: " + timesLost;
+        guessesLeft = 15;
+        document.getElementById("guessCount").innerHTML = guessesLeft;
+        removeArray(animalX);
+        answerString = [];
+        buttonsBack();
+        setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
+        logArray(animalX);
+        
+    }
+    if (answerString.length == animalX.length){
+        timesWon +=1;
+        document.getElementById("wins").innerHTML = "Wins: " + timesWon;
+        guessesLeft = 15;
+        document.getElementById("guessCount").innerHTML = guessesLeft;
+        removeArray(animalX);
+        answerString = [];
+        buttonsBack();
+        setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
+        logArray(animalX);
+        
+    }
+    imageCycle();
+}
+
+//LETTER END/////////////////////////////////////////////////////
+//NEXT LETTER______________________________________________________________
+//change letter below
+var removeGuessM = 0;
+//change letter below
+function letterM(){
+    //change letter below
+    document.getElementById("M").style.display="none";
+    //change letter below
+    if (removeGuessM<1){
+        guessesLeft= guessesLeft-1;
+        document.getElementById("guessCount").innerHTML = guessesLeft;
+        //CHANGE LETTER BELOW        
+        removeGuessM+=1;
+          
+        
+    
+   
+    for (var i=0; i<animalX.length; i++){
+    var idIndex = 'id'+i;
+    var idChar = document.getElementById("id" + i).innerText;
+    var idChar2 = document.getElementById("id"+ i);
+    //CHANGE LETTER BELOW
+    var letter = 'm';
+    console.log('checking: ' + idChar);
+    
+    
+        if (idChar == letter){        
+            idChar2.style.cssText= "color:red; border-bottom: 2px solid black; font-size: 30px;";
+            
+            answerString.splice(i,0,letter);
+            console.log("making answer: " +answerString);             
+        }
+        else{
+            console.log("oops");
+
+        }
+    
+    }
+}
+    if (guessesLeft == 0){
+        timesLost-=1;
+        document.getElementById("losses").innerHTML = "Losses: " + timesLost;
+        guessesLeft = 15;
+        document.getElementById("guessCount").innerHTML = guessesLeft;
+        removeArray(animalX);
+        answerString = [];
+        buttonsBack();
+        setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
+        logArray(animalX);
+        
+    }
+    if (answerString.length == animalX.length){
+        timesWon +=1;
+        document.getElementById("wins").innerHTML = "Wins: " + timesWon;
+        guessesLeft = 15;
+        document.getElementById("guessCount").innerHTML = guessesLeft;
+        removeArray(animalX);
+        answerString = [];
+        buttonsBack();
+        setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
+        logArray(animalX);
+        
+    }
+    imageCycle();
+}
+
+//LETTER END/////////////////////////////////////////////////////
+
+//NEXT LETTER______________________________________________________________
+//change letter below
+var removeGuessN = 0;
+//change letter below
+function letterN(){
+    //change letter below
+    document.getElementById("N").style.display="none";
+    //change letter below
+    if (removeGuessN<1){
+        guessesLeft= guessesLeft-1;
+        document.getElementById("guessCount").innerHTML = guessesLeft;
+        //CHANGE LETTER BELOW        
+        removeGuessN+=1;
+          
+        
+    
+   
+    for (var i=0; i<animalX.length; i++){
+    var idIndex = 'id'+i;
+    var idChar = document.getElementById("id" + i).innerText;
+    var idChar2 = document.getElementById("id"+ i);
+    //CHANGE LETTER BELOW
+    var letter = 'n';
+    console.log('checking: ' + idChar);
+    
+    
+        if (idChar == letter){        
+            idChar2.style.cssText= "color:red; border-bottom: 2px solid black; font-size: 30px;";
+            
+            answerString.splice(i,0,letter);
+            console.log("making answer: " +answerString);             
+        }
+        else{
+            console.log("oops");
+
+        }
+    
+    }
+}
+    if (guessesLeft == 0){
+        timesLost-=1;
+        document.getElementById("losses").innerHTML = "Losses: " + timesLost;
+        guessesLeft = 15;
+        document.getElementById("guessCount").innerHTML = guessesLeft;
+        removeArray(animalX);
+        answerString = [];
+        buttonsBack();
+        setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
+        logArray(animalX);
+        
+    }
+    if (answerString.length == animalX.length){
+        timesWon +=1;
+        document.getElementById("wins").innerHTML = "Wins: " + timesWon;
+        guessesLeft = 15;
+        document.getElementById("guessCount").innerHTML = guessesLeft;
+        removeArray(animalX);
+        answerString = [];
+        buttonsBack();
+        setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
+        logArray(animalX);
+        
+    }
+    imageCycle();
+}
+
+//LETTER END/////////////////////////////////////////////////////
+
+//NEXT LETTER______________________________________________________________
+//change letter below
+var removeGuessO = 0;
+//change letter below
+function letterO(){
+    //change letter below
+    document.getElementById("O").style.display="none";
+    //change letter below
+    if (removeGuessO<1){
+        guessesLeft= guessesLeft-1;
+        document.getElementById("guessCount").innerHTML = guessesLeft;
+        //CHANGE LETTER BELOW        
+        removeGuessO+=1;
+          
+        
+    
+   
+    for (var i=0; i<animalX.length; i++){
+    var idIndex = 'id'+i;
+    var idChar = document.getElementById("id" + i).innerText;
+    var idChar2 = document.getElementById("id"+ i);
+    //CHANGE LETTER BELOW
+    var letter = 'o';
+    console.log('checking: ' + idChar);
+    
+    
+        if (idChar == letter){        
+            idChar2.style.cssText= "color:red; border-bottom: 2px solid black; font-size: 30px;";
+            
+            answerString.splice(i,0,letter);
+            console.log("making answer: " +answerString);             
+        }
+        else{
+            console.log("oops");
+
+        }
+    
+    }
+}
+    if (guessesLeft == 0){
+        timesLost-=1;
+        document.getElementById("losses").innerHTML = "Losses: " + timesLost;
+        guessesLeft = 15;
+        document.getElementById("guessCount").innerHTML = guessesLeft;
+        removeArray(animalX);
+        answerString = [];
+        buttonsBack();
+        setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
+        logArray(animalX);
+        
+    }
+    if (answerString.length == animalX.length){
+        timesWon +=1;
+        document.getElementById("wins").innerHTML = "Wins: " + timesWon;
+        guessesLeft = 15;
+        document.getElementById("guessCount").innerHTML = guessesLeft;
+        removeArray(animalX);
+        answerString = [];
+        buttonsBack();
+        setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
+        logArray(animalX);
+        
+    }
+    imageCycle();
+}
+
+//LETTER END/////////////////////////////////////////////////////
+
+//NEXT LETTER______________________________________________________________
+//change letter below
+var removeGuessP = 0;
+//change letter below
+function letterP(){
+    //change letter below
+    document.getElementById("P").style.display="none";
+    //change letter below
+    if (removeGuessP<1){
+        guessesLeft= guessesLeft-1;
+        document.getElementById("guessCount").innerHTML = guessesLeft;
+        //CHANGE LETTER BELOW        
+        removeGuessP+=1;
+          
+        
+    
+   
+    for (var i=0; i<animalX.length; i++){
+    var idIndex = 'id'+i;
+    var idChar = document.getElementById("id" + i).innerText;
+    var idChar2 = document.getElementById("id"+ i);
+    //CHANGE LETTER BELOW
+    var letter = 'p';
+    console.log('checking: ' + idChar);
+    
+    
+        if (idChar == letter){        
+            idChar2.style.cssText= "color:red; border-bottom: 2px solid black; font-size: 30px;";
+            
+            answerString.splice(i,0,letter);
+            console.log("making answer: " +answerString);             
+        }
+        else{
+            console.log("oops");
+
+        }
+    
+    }
+}
+    if (guessesLeft == 0){
+        timesLost-=1;
+        document.getElementById("losses").innerHTML = "Losses: " + timesLost;
+        guessesLeft = 15;
+        document.getElementById("guessCount").innerHTML = guessesLeft;
+        removeArray(animalX);
+        answerString = [];
+        buttonsBack();
+        setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
+        logArray(animalX);
+        
+    }
+    if (answerString.length == animalX.length){
+        timesWon +=1;
+        document.getElementById("wins").innerHTML = "Wins: " + timesWon;
+        guessesLeft = 15;
+        document.getElementById("guessCount").innerHTML = guessesLeft;
+        removeArray(animalX);
+        answerString = [];
+        buttonsBack();
+        setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
+        logArray(animalX);
+        
+    }
+    imageCycle();
+}
+
+//LETTER END/////////////////////////////////////////////////////
+
+//NEXT LETTER______________________________________________________________
+//change letter below
+var removeGuessQ = 0;
+//change letter below
+function letterQ(){
+    //change letter below
+    document.getElementById("Q").style.display="none";
+    //change letter below
+    if (removeGuessQ<1){
+        guessesLeft= guessesLeft-1;
+        document.getElementById("guessCount").innerHTML = guessesLeft;
+        //CHANGE LETTER BELOW        
+        removeGuessQ+=1;
+          
+        
+    
+   
+    for (var i=0; i<animalX.length; i++){
+    var idIndex = 'id'+i;
+    var idChar = document.getElementById("id" + i).innerText;
+    var idChar2 = document.getElementById("id"+ i);
+    //CHANGE LETTER BELOW
+    var letter = 'q';
+    console.log('checking: ' + idChar);
+    
+    
+        if (idChar == letter){        
+            idChar2.style.cssText= "color:red; border-bottom: 2px solid black; font-size: 30px;";
+            
+            answerString.splice(i,0,letter);
+            console.log("making answer: " +answerString);             
+        }
+        else{
+            console.log("oops");
+
+        }
+    
+    }
+}
+    if (guessesLeft == 0){
+        timesLost-=1;
+        document.getElementById("losses").innerHTML = "Losses: " + timesLost;
+        guessesLeft = 15;
+        document.getElementById("guessCount").innerHTML = guessesLeft;
+        removeArray(animalX);
+        answerString = [];
+        buttonsBack();
+        setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
+        logArray(animalX);
+        
+    }
+    if (answerString.length == animalX.length){
+        timesWon +=1;
+        document.getElementById("wins").innerHTML = "Wins: " + timesWon;
+        guessesLeft = 15;
+        document.getElementById("guessCount").innerHTML = guessesLeft;
+        removeArray(animalX);
+        answerString = [];
+        buttonsBack();
+        setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
+        logArray(animalX);
+        
+    }
+    imageCycle();
+}
+
+//LETTER END/////////////////////////////////////////////////////
+
+//NEXT LETTER______________________________________________________________
+//change letter below
+var removeGuessR = 0;
+//change letter below
+function letterR(){
+    //change letter below
+    document.getElementById("R").style.display="none";
+    //change letter below
+    if (removeGuessR<1){
+        guessesLeft= guessesLeft-1;
+        document.getElementById("guessCount").innerHTML = guessesLeft;
+        //CHANGE LETTER BELOW        
+        removeGuessR+=1;
+          
+        
+    
+   
+    for (var i=0; i<animalX.length; i++){
+    var idIndex = 'id'+i;
+    var idChar = document.getElementById("id" + i).innerText;
+    var idChar2 = document.getElementById("id"+ i);
+    //CHANGE LETTER BELOW
+    var letter = 'r';
+    console.log('checking: ' + idChar);
+    
+    
+        if (idChar == letter){        
+            idChar2.style.cssText= "color:red; border-bottom: 2px solid black; font-size: 30px;";
+            
+            answerString.splice(i,0,letter);
+            console.log("making answer: " +answerString);             
+        }
+        else{
+            console.log("oops");
+
+        }
+    
+    }
+}
+    if (guessesLeft == 0){
+        timesLost-=1;
+        document.getElementById("losses").innerHTML = "Losses: " + timesLost;
+        guessesLeft = 15;
+        document.getElementById("guessCount").innerHTML = guessesLeft;
+        removeArray(animalX);
+        answerString = [];
+        buttonsBack();
+        setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
+        logArray(animalX);
+        
+    }
+    if (answerString.length == animalX.length){
+        timesWon +=1;
+        document.getElementById("wins").innerHTML = "Wins: " + timesWon;
+        guessesLeft = 15;
+        document.getElementById("guessCount").innerHTML = guessesLeft;
+        removeArray(animalX);
+        answerString = [];
+        buttonsBack();
+        setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
+        logArray(animalX);
+        
+    }
+    imageCycle();
+}
+
+//LETTER END/////////////////////////////////////////////////////
+
+//NEXT LETTER______________________________________________________________
+//change letter below
+var removeGuessS = 0;
+//change letter below
+function letterS(){
+    //change letter below
+    document.getElementById("S").style.display="none";
+    //change letter below
+    if (removeGuessS<1){
+        guessesLeft= guessesLeft-1;
+        document.getElementById("guessCount").innerHTML = guessesLeft;
+        //CHANGE LETTER BELOW        
+        removeGuessS+=1;
+          
+        
+    
+   
+    for (var i=0; i<animalX.length; i++){
+    var idIndex = 'id'+i;
+    var idChar = document.getElementById("id" + i).innerText;
+    var idChar2 = document.getElementById("id"+ i);
+    //CHANGE LETTER BELOW
+    var letter = 's';
+    console.log('checking: ' + idChar);
+    
+    
+        if (idChar == letter){        
+            idChar2.style.cssText= "color:red; border-bottom: 2px solid black; font-size: 30px;";
+            
+            answerString.splice(i,0,letter);
+            console.log("making answer: " +answerString);             
+        }
+        else{
+            console.log("oops");
+
+        }
+    
+    }
+}
+    if (guessesLeft == 0){
+        timesLost-=1;
+        document.getElementById("losses").innerHTML = "Losses: " + timesLost;
+        guessesLeft = 15;
+        document.getElementById("guessCount").innerHTML = guessesLeft;
+        removeArray(animalX);
+        answerString = [];
+        buttonsBack();
+        setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
+        logArray(animalX);
+        
+    }
+    if (answerString.length == animalX.length){
+        timesWon +=1;
+        document.getElementById("wins").innerHTML = "Wins: " + timesWon;
+        guessesLeft = 15;
+        document.getElementById("guessCount").innerHTML = guessesLeft;
+        removeArray(animalX);
+        answerString = [];
+        buttonsBack();
+        setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
+        logArray(animalX);
+        
+    }
+    imageCycle();
+}
+
+//LETTER END/////////////////////////////////////////////////////
+
+//NEXT LETTER______________________________________________________________
+//change letter below
+var removeGuessT = 0;
+//change letter below
+function letterT(){
+    //change letter below
+    document.getElementById("T").style.display="none";
+    //change letter below
+    if (removeGuessT<1){
+        guessesLeft= guessesLeft-1;
+        document.getElementById("guessCount").innerHTML = guessesLeft;
+        //CHANGE LETTER BELOW        
+        removeGuessT+=1;
+          
+        
+    
+   
+    for (var i=0; i<animalX.length; i++){
+    var idIndex = 'id'+i;
+    var idChar = document.getElementById("id" + i).innerText;
+    var idChar2 = document.getElementById("id"+ i);
+    //CHANGE LETTER BELOW
+    var letter = 't';
+    console.log('checking: ' + idChar);
+    
+    
+        if (idChar == letter){        
+            idChar2.style.cssText= "color:red; border-bottom: 2px solid black; font-size: 30px;";
+            
+            answerString.splice(i,0,letter);
+            console.log("making answer: " +answerString);             
+        }
+        else{
+            console.log("oops");
+
+        }
+    
+    }
+}
+    if (guessesLeft == 0){
+        timesLost-=1;
+        document.getElementById("losses").innerHTML = "Losses: " + timesLost;
+        guessesLeft = 15;
+        document.getElementById("guessCount").innerHTML = guessesLeft;
+        removeArray(animalX);
+        answerString = [];
+        buttonsBack();
+        setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
+        logArray(animalX);
+        
+    }
+    if (answerString.length == animalX.length){
+        timesWon +=1;
+        document.getElementById("wins").innerHTML = "Wins: " + timesWon;
+        guessesLeft = 15;
+        document.getElementById("guessCount").innerHTML = guessesLeft;
+        removeArray(animalX);
+        answerString = [];
+        buttonsBack();
+        setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
+        logArray(animalX);
+        
+    }
+    imageCycle();
+}
+
+//LETTER END/////////////////////////////////////////////////////
+
+//NEXT LETTER______________________________________________________________
+//change letter below
+var removeGuessU = 0;
+//change letter below
+function letterU(){
+    //change letter below
+    document.getElementById("U").style.display="none";
+    //change letter below
+    if (removeGuessU<1){
+        guessesLeft= guessesLeft-1;
+        document.getElementById("guessCount").innerHTML = guessesLeft;
+        //CHANGE LETTER BELOW        
+        removeGuessU+=1;
+          
+        
+    
+   
+    for (var i=0; i<animalX.length; i++){
+    var idIndex = 'id'+i;
+    var idChar = document.getElementById("id" + i).innerText;
+    var idChar2 = document.getElementById("id"+ i);
+    //CHANGE LETTER BELOW
+    var letter = 'u';
+    console.log('checking: ' + idChar);
+    
+    
+        if (idChar == letter){        
+            idChar2.style.cssText= "color:red; border-bottom: 2px solid black; font-size: 30px;";
+            
+            answerString.splice(i,0,letter);
+            console.log("making answer: " +answerString);             
+        }
+        else{
+            console.log("oops");
+
+        }
+    
+    }
+}
+    if (guessesLeft == 0){
+        timesLost-=1;
+        document.getElementById("losses").innerHTML = "Losses: " + timesLost;
+        guessesLeft = 15;
+        document.getElementById("guessCount").innerHTML = guessesLeft;
+        removeArray(animalX);
+        answerString = [];
+        buttonsBack();
+        setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
+        logArray(animalX);
+        
+    }
+    if (answerString.length == animalX.length){
+        timesWon +=1;
+        document.getElementById("wins").innerHTML = "Wins: " + timesWon;
+        guessesLeft = 15;
+        document.getElementById("guessCount").innerHTML = guessesLeft;
+        removeArray(animalX);
+        answerString = [];
+        buttonsBack();
+        setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
+        logArray(animalX);
+        
+    }
+    imageCycle();
+}
+
+//LETTER END/////////////////////////////////////////////////////
+
+//NEXT LETTER______________________________________________________________
+//change letter below
+var removeGuessV = 0;
+//change letter below
+function letterV(){
+    //change letter below
+    document.getElementById("V").style.display="none";
+    //change letter below
+    if (removeGuessV<1){
+        guessesLeft= guessesLeft-1;
+        document.getElementById("guessCount").innerHTML = guessesLeft;
+        //CHANGE LETTER BELOW        
+        removeGuessV+=1;
+          
+        
+    
+   
+    for (var i=0; i<animalX.length; i++){
+    var idIndex = 'id'+i;
+    var idChar = document.getElementById("id" + i).innerText;
+    var idChar2 = document.getElementById("id"+ i);
+    //CHANGE LETTER BELOW
+    var letter = 'v';
+    console.log('checking: ' + idChar);
+    
+    
+        if (idChar == letter){        
+            idChar2.style.cssText= "color:red; border-bottom: 2px solid black; font-size: 30px;";
+            
+            answerString.splice(i,0,letter);
+            console.log("making answer: " +answerString);             
+        }
+        else{
+            console.log("oops");
+
+        }
+    
+    }
+}
+    if (guessesLeft == 0){
+        timesLost-=1;
+        document.getElementById("losses").innerHTML = "Losses: " + timesLost;
+        guessesLeft = 15;
+        document.getElementById("guessCount").innerHTML = guessesLeft;
+        removeArray(animalX);
+        answerString = [];
+        buttonsBack();
+        setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
+        logArray(animalX);
+        
+    }
+    if (answerString.length == animalX.length){
+        timesWon +=1;
+        document.getElementById("wins").innerHTML = "Wins: " + timesWon;
+        guessesLeft = 15;
+        document.getElementById("guessCount").innerHTML = guessesLeft;
+        removeArray(animalX);
+        answerString = [];
+        buttonsBack();
+        setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
+        logArray(animalX);
+        
+    }
+    imageCycle();
+}
+
+//LETTER END/////////////////////////////////////////////////////
+
+//NEXT LETTER______________________________________________________________
+//change letter below
+var removeGuessW = 0;
+//change letter below
+function letterW(){
+    //change letter below
+    document.getElementById("W").style.display="none";
+    //change letter below
+    if (removeGuessW<1){
+        guessesLeft= guessesLeft-1;
+        document.getElementById("guessCount").innerHTML = guessesLeft;
+        //CHANGE LETTER BELOW        
+        removeGuessW+=1;
+          
+        
+    
+   
+    for (var i=0; i<animalX.length; i++){
+    var idIndex = 'id'+i;
+    var idChar = document.getElementById("id" + i).innerText;
+    var idChar2 = document.getElementById("id"+ i);
+    //CHANGE LETTER BELOW
+    var letter = 'w';
+    console.log('checking: ' + idChar);
+    
+    
+        if (idChar == letter){        
+            idChar2.style.cssText= "color:red; border-bottom: 2px solid black; font-size: 30px;";
+            
+            answerString.splice(i,0,letter);
+            console.log("making answer: " +answerString);             
+        }
+        else{
+            console.log("oops");
+
+        }
+    
+    }
+}
+    if (guessesLeft == 0){
+        timesLost-=1;
+        document.getElementById("losses").innerHTML = "Losses: " + timesLost;
+        guessesLeft = 15;
+        document.getElementById("guessCount").innerHTML = guessesLeft;
+        removeArray(animalX);
+        answerString = [];
+        buttonsBack();
+        setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
+        logArray(animalX);
+        
+    }
+    if (answerString.length == animalX.length){
+        timesWon +=1;
+        document.getElementById("wins").innerHTML = "Wins: " + timesWon;
+        guessesLeft = 15;
+        document.getElementById("guessCount").innerHTML = guessesLeft;
+        removeArray(animalX);
+        answerString = [];
+        buttonsBack();
+        setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
+        logArray(animalX);
+        
+    }
+    imageCycle();
+}
+
+//LETTER END/////////////////////////////////////////////////////
+
+//NEXT LETTER______________________________________________________________
+//change letter below
+var removeGuessX = 0;
+//change letter below
+function letterX(){
+    //change letter below
+    document.getElementById("X").style.display="none";
+    //change letter below
+    if (removeGuessX<1){
+        guessesLeft= guessesLeft-1;
+        document.getElementById("guessCount").innerHTML = guessesLeft;
+        //CHANGE LETTER BELOW        
+        removeGuessX+=1;
+          
+        
+    
+   
+    for (var i=0; i<animalX.length; i++){
+    var idIndex = 'id'+i;
+    var idChar = document.getElementById("id" + i).innerText;
+    var idChar2 = document.getElementById("id"+ i);
+    //CHANGE LETTER BELOW
+    var letter = 'x';
+    console.log('checking: ' + idChar);
+    
+    
+        if (idChar == letter){        
+            idChar2.style.cssText= "color:red; border-bottom: 2px solid black; font-size: 30px;";
+            
+            answerString.splice(i,0,letter);
+            console.log("making answer: " +answerString);             
+        }
+        else{
+            console.log("oops");
+
+        }
+    
+    }
+}
+    if (guessesLeft == 0){
+        timesLost-=1;
+        document.getElementById("losses").innerHTML = "Losses: " + timesLost;
+        guessesLeft = 15;
+        document.getElementById("guessCount").innerHTML = guessesLeft;
+        removeArray(animalX);
+        answerString = [];
+        buttonsBack();
+        setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
+        logArray(animalX);
+        
+    }
+    if (answerString.length == animalX.length){
+        timesWon +=1;
+        document.getElementById("wins").innerHTML = "Wins: " + timesWon;
+        guessesLeft = 15;
+        document.getElementById("guessCount").innerHTML = guessesLeft;
+        removeArray(animalX);
+        answerString = [];
+        buttonsBack();
+        setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
+        logArray(animalX);
+        
+    }
+    imageCycle();
+}
+
+//LETTER END/////////////////////////////////////////////////////
+
+//NEXT LETTER______________________________________________________________
+//change letter below
+var removeGuessY = 0;
+//change letter below
+function letterY(){
+    //change letter below
+    document.getElementById("Y").style.display="none";
+    //change letter below
+    if (removeGuessY<1){
+        guessesLeft= guessesLeft-1;
+        document.getElementById("guessCount").innerHTML = guessesLeft;
+        //CHANGE LETTER BELOW        
+        removeGuessY+=1;
+          
+        
+    
+   
+    for (var i=0; i<animalX.length; i++){
+    var idIndex = 'id'+i;
+    var idChar = document.getElementById("id" + i).innerText;
+    var idChar2 = document.getElementById("id"+ i);
+    //CHANGE LETTER BELOW
+    var letter = 'y';
+    console.log('checking: ' + idChar);
+    
+    
+        if (idChar == letter){        
+            idChar2.style.cssText= "color:red; border-bottom: 2px solid black; font-size: 30px;";
+            
+            answerString.splice(i,0,letter);
+            console.log("making answer: " +answerString);             
+        }
+        else{
+            console.log("oops");
+
+        }
+    
+    }
+}
+    if (guessesLeft == 0){
+        timesLost-=1;
+        document.getElementById("losses").innerHTML = "Losses: " + timesLost;
+        guessesLeft = 15;
+        document.getElementById("guessCount").innerHTML = guessesLeft;
+        removeArray(animalX);
+        answerString = [];
+        buttonsBack();
+        setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
+        logArray(animalX);
+        
+    }
+    if (answerString.length == animalX.length){
+        timesWon +=1;
+        document.getElementById("wins").innerHTML = "Wins: " + timesWon;
+        guessesLeft = 15;
+        document.getElementById("guessCount").innerHTML = guessesLeft;
+        removeArray(animalX);
+        answerString = [];
+        buttonsBack();
+        setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
+        logArray(animalX);
+        
+    }
+    imageCycle();
+}
+
+//LETTER END/////////////////////////////////////////////////////
+
+//NEXT LETTER______________________________________________________________
+//change letter below
+var removeGuessZ = 0;
+//change letter below
+function letterZ(){
+    //change letter below
+    document.getElementById("Z").style.display="none";
+    //change letter below
+    if (removeGuessZ<1){
+        guessesLeft= guessesLeft-1;
+        document.getElementById("guessCount").innerHTML = guessesLeft;
+        //CHANGE LETTER BELOW        
+        removeGuessZ+=1;
+          
+        
+    
+   
+    for (var i=0; i<animalX.length; i++){
+    var idIndex = 'id'+i;
+    var idChar = document.getElementById("id" + i).innerText;
+    var idChar2 = document.getElementById("id"+ i);
+    //CHANGE LETTER BELOW
+    var letter = 'z';
+    console.log('checking: ' + idChar);
+    
+    
+        if (idChar == letter){        
+            idChar2.style.cssText= "color:red; border-bottom: 2px solid black; font-size: 30px;";
+            
+            answerString.splice(i,0,letter);
+            console.log("making answer: " +answerString);             
+        }
+        else{
+            console.log("oops");
+
+        }
+    
+    }
+}
+    if (guessesLeft == 0){
+        timesLost-=1;
+        document.getElementById("losses").innerHTML = "Losses: " + timesLost;
+        guessesLeft = 15;
+        document.getElementById("guessCount").innerHTML = guessesLeft;
+        removeArray(animalX);
+        answerString = [];
+        buttonsBack();
+        setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
+        logArray(animalX);
+        
+    }
+    if (answerString.length == animalX.length){
+        timesWon +=1;
+        document.getElementById("wins").innerHTML = "Wins: " + timesWon;
+        guessesLeft = 15;
+        document.getElementById("guessCount").innerHTML = guessesLeft;
+        removeArray(animalX);
+        answerString = [];
+        buttonsBack();
+        setGuessesZero();
+        animalX = animalNames[Math.floor((Math.random() * animalNames.length-1) + 1)];
+        logArray(animalX);
+        
+    }
+    imageCycle();
+}
+
+//LETTER END/////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // var newDiv = document.createElement("div");
 // var node = document.createTextNode("Checking: " + animalX);
